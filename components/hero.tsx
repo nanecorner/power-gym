@@ -45,7 +45,7 @@ export function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-4 md:gap-8 mt-16 md:mt-24 max-w-3xl mx-auto">
+        <div className="grid grid-cols-3 gap-4 md:gap-8 mt-16 md:mt-10 max-w-3xl mx-auto">
           <div className="text-center">
             <p className="text-3xl md:text-5xl font-bold text-primary">500+</p>
             <p className="text-sm md:text-base text-muted-foreground mt-1">Miembros activos</p>

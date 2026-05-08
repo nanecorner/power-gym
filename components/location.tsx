@@ -82,8 +82,10 @@ export function Location() {
                   <div className="text-muted-foreground space-y-1">
                     <p>Tel: +52 442 123 4567</p>
                     <p className="flex items-center gap-2">
-                      <Mail className="h-4 w-4" />
-                      info@powergym.com
+                      <Mail className="h-4 w-4 shrink-0" />
+                      <a href="mailto:info@powergym.com" className="hover:text-primary transition-colors break-all">
+                        info@powergym.com
+                      </a>
                     </p>
                   </div>
                 </div>

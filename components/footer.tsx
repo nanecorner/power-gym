@@ -74,7 +74,11 @@ export function Footer() {
               <li>Av. Paseo de la Reforma 500</li>
               <li>Col. Juárez, CDMX</li>
               <li>+52 442 123 4567</li>
-              <li>info@powergym.com</li>
+              <li>
+                <a href="mailto:info@powergym.com" className="hover:text-primary transition-colors">
+                  info@powergym.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>
