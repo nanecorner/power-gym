@@ -2,10 +2,10 @@ import Link from "next/link"
 import { Dumbbell, Instagram, Facebook, Youtube, Twitter } from "lucide-react"
 
 const socialLinks = [
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-  { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Instagram, href: "https://www.instagram.com/smartfit/", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/SmartFit.Oficial", label: "Facebook" },
+  { icon: Youtube, href: "https://www.youtube.com/@smartfit", label: "YouTube" },
+  { icon: Twitter, href: "https://x.com/SmartFitMx", label: "Twitter" },
 ]
 
 const quickLinks = [
@@ -30,7 +30,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Más de 10 años transformando vidas. Somos el gimnasio líder en la ciudad 
+              Más de 10 años transformando vidas. Somos el gimnasio líder en la ciudad
               con las mejores instalaciones y el equipo más profesional.
             </p>
             {/* Social Links */}
@@ -56,7 +56,7 @@ export function Footer() {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
@@ -73,7 +73,7 @@ export function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li>Av. Paseo de la Reforma 500</li>
               <li>Col. Juárez, CDMX</li>
-              <li>+52 55 1234 5678</li>
+              <li>+52 442 123 4567</li>
               <li>info@powergym.com</li>
             </ul>
           </div>
@@ -92,6 +92,10 @@ export function Footer() {
               Términos y condiciones
             </Link>
           </div>
+          <p className="text-muted-foreground text-sm">
+            Hecho por{" "}
+            <span className="text-primary font-semibold hover:opacity-80 transition-opacity">D&apos;cReaM</span>{" "}🐢
+          </p>
         </div>
       </div>
     </footer>

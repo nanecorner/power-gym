@@ -14,7 +14,7 @@ export function Location() {
             <span className="text-primary"> nuestro espacio</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Estamos ubicados en una zona céntrica con fácil acceso y estacionamiento. 
+            Estamos ubicados en una zona céntrica con fácil acceso y estacionamiento.
             Te esperamos para una visita guiada gratuita.
           </p>
         </div>
@@ -23,7 +23,7 @@ export function Location() {
           {/* Map */}
           <div className="relative aspect-video lg:aspect-auto lg:h-full min-h-[300px] rounded-lg overflow-hidden bg-secondary">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661137896038!2d-99.16869492393799!3d19.427020481872827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses!2smx!4v1699900000000!5m2!1ses!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.6539!2d-100.4452!3d20.7234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d345b30bbdf1c3%3A0x4d0f9b6b7c4a2e5f!2sResidencial%20Caletto%2C%20Blvd.%20Jurica%20la%20Campana%2C%20Jurica%20Acueducto%2C%2076230%20Juriquilla%2C%20Qro.!5e0!3m2!1ses!2smx!4v1746737649000!5m2!1ses!2smx"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '300px' }}
@@ -46,9 +46,9 @@ export function Location() {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-1">Dirección</h3>
                   <p className="text-muted-foreground">
-                    Av. Paseo de la Reforma 500<br />
-                    Col. Juárez, Cuauhtémoc<br />
-                    CDMX, C.P. 06600
+                    Residencial Caletto<br />
+                    Blvd. Jurica la Campana Col. Jurica Acueducto<br />
+                    C.P. 76230, Juriquilla, Qro., México
                   </p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ export function Location() {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-1">Contacto</h3>
                   <div className="text-muted-foreground space-y-1">
-                    <p>Tel: +52 55 1234 5678</p>
+                    <p>Tel: +52 442 123 4567</p>
                     <p className="flex items-center gap-2">
                       <Mail className="h-4 w-4" />
                       info@powergym.com
